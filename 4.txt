@@ -1,0 +1,14 @@
+void main(){
+  double nota1 = 4;
+  double nota2 = 10;
+  
+  double soma = nota1 + nota2;
+ double resultado = soma / 2;
+  
+if(resultado <= 6){
+  print('reprovado');
+}else{
+  print('aprovado');
+}
+  
+}

@@ -1,0 +1,13 @@
+void main() {
+
+var valor_conta = 2999;
+ var saque = 9000;
+  
+  if(saque > 2999){
+    print ('Saldo indisponivel');}
+  else if(saque < 2999){
+    print('Saque efetuado com sucesso!');
+    print(valor_conta-saque );
+    
+  }
+} 

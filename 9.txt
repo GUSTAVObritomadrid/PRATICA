@@ -1,0 +1,14 @@
+void main(){
+  double idade = 22;
+  
+if(idade <= 12){
+  print('criança');
+}else if(idade <= 21){
+  print('jovem');
+}else if(idade <= 59){
+  print('adulto');
+}else if(idade >= 60){
+  print('idoso');
+}
+ 
+}

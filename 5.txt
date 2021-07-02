@@ -1,0 +1,10 @@
+void main() {
+  double nota1 = 2.0;
+  double nota2 = 1.0;
+  double nota3 = 3.0;
+
+  var resultado = nota1 + nota2 + nota3 / 3;
+  if (resultado < 7) {
+    print("reprovado");
+  } else if (resultado > 7) print("aprovado");
+}

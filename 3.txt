@@ -1,0 +1,16 @@
+
+void main() {
+  var a = 2;
+  var b = 4;
+  var c = 5;
+  
+  var conta1 = (a+b*c);
+  var conta2 = (b /a * c);
+  
+  if(conta1 == conta2){
+    print('São iguais');
+  }else {
+    print('Não são iguais');
+  }
+
+}

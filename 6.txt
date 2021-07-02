@@ -1,0 +1,20 @@
+void main(){
+  double nota1 = 7;
+  double nota2 = 8;
+  double nota3 = 9;
+  
+  double soma = nota1 + nota2 + nota3;
+ double resultado = soma / 3;
+  
+if(resultado >= 9){
+  print('aprovado');
+  print('nota: A');
+}else if(resultado >= 8){
+  print('aprovado');
+  print ('nota: B');
+}else if(resultado >7.9){
+  print('aprovado');
+  print('nota C');
+}else if(resultado < 7)
+print('reprovado');
+}

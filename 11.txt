@@ -1,0 +1,19 @@
+void main() {
+  var salarioAntigo = 1000;
+  var dissidio = 4;
+  var porcentagem = 1000 / 100 * dissidio;
+  var salarioNovo = salarioAntigo + porcentagem;
+  
+double tempo = 1;
+  
+  
+  
+  if(tempo >= 1){
+   print(salarioNovo);
+  }else{
+    print('Funcionário com menos de 1 ano de empresa');
+  }
+    
+
+  
+}
